@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Candidate for Chair Person of PUMA Information System 2026 \n\n"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Candidate 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/candidate1"
+                android:contentDescription="Candidate 1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Candidate 1 \n\nVision:\nTo enhance student welfare.\n\n\n\nMission:\n- Promote transparency and accountability.\n- Organize workshops for skill enhancement.\n- Support extracurricular activities.\n\n"
+                android:padding="8dp"
+                android:textAlignment="viewStart"
+                android:lineSpacingExtra="2dp"
+                android:justificationMode="inter_word" />
+
+            <Button
+                android:id="@+id/voteButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vote Candidate 1"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <!-- Candidate 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/candidate2"
+                android:contentDescription="Candidate 2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Candidate 2\n \nVision:\nTo support innovation and creativity among students.\n\n\nMission:\n- Conduct more hands-on training.\n- Build a culture of collaboration and respect.\n- Enhance access to mentorship programs.\n"
+                android:padding="8dp"
+                android:textAlignment="viewStart"
+                android:lineSpacingExtra="2dp"
+                android:justificationMode="inter_word" />
+
+            <Button
+                android:id="@+id/voteButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vote Candidate 2"
+                android:clickable="true"
+                android:focusable="true" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/viewResultsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Results"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

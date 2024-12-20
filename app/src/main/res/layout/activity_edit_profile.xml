@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F3F4F6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:layout_margin="16dp">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:enabled="false"
+            android:backgroundTint="#6A1B9A"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editTextMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Major"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:enabled="false"
+            android:backgroundTint="#6A1B9A"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editTextBatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Batch"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:enabled="false"
+            android:backgroundTint="#6A1B9A"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editTextStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student ID"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:enabled="false"
+            android:backgroundTint="#6A1B9A"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editTextDob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth (YYYY-MM-DD)"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:enabled="false"
+            android:backgroundTint="#6A1B9A"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6A1B9A"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6A1B9A"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:enabled="false"/>
+    </LinearLayout>
+</ScrollView>

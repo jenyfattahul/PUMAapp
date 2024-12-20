@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textViewGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="18sp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"/>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/buttonProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonVoting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voting"
+        android:layout_marginTop="28dp"
+       />
+
+    <Button
+        android:id="@+id/buttonFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:layout_marginTop="28dp" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Logout" />
+
+</LinearLayout>
